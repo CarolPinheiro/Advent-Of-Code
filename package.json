@@ -1,0 +1,20 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Desafio realizado com base no evento [Advent Of Code](https://adventofcode.com/), onde a ideia proposta é que todos os dias de dezembro até o natal, um desafio de lógica seja resolvido.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolPinheiro/Advent-Of-Code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarolPinheiro/Advent-Of-Code/issues"
+  },
+  "homepage": "https://github.com/CarolPinheiro/Advent-Of-Code#readme"
+}
