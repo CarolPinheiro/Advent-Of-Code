@@ -11,6 +11,6 @@ const result = arrayOfCaloriesByElf.reduce((acc, att, index) => {
   return acc
 },[])
 
-const biggestAmountOfCalories = Math.max(...result)
+const topTheeSumOfCalories = result.splice(0, 3).reduce((acc, att) => acc + Number(att),0)
 
-console.log( `O elfo carregando a maior quantidade de calorias leva ${biggestAmountOfCalories} calorias` )
+console.log( `A soma das 3 maiores quantidades de calorias carregadas pelos elfos é ${topTheeSumOfCalories}` )
